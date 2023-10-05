@@ -6,6 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "docker:start": "docker-compose up -d",
+    "docker:refresh": "chmod +x ./scripts/refresh_containers.sh && ./scripts/refresh_containers.sh",
+    "docker:stop": "docker-compose down",
+    "prisma:pull": "npx prisma db pull",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
@@ -13,12 +17,17 @@
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.3.1",
+    "@prisma/client": "^5.4.1",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
+    "docker-compose": "^0.24.2",
     "lucide-react": "0.105.0-alpha.4",
     "next": "^13.4.8",
     "next-themes": "^0.2.1",
@@ -44,6 +53,7 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
+    "prisma": "^5.4.1",
     "tailwindcss": "^3.3.2",
     "typescript": "^4.9.5"
   }
