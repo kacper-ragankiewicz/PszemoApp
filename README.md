@@ -1,11 +1,15 @@
-# next-template
+# Next 13
 
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-## Usage
+## How to run
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+```
+$ sudo npm run docker:start
+```
+
+```
+$ npm run dev
 ```
 
 ## Features
@@ -16,7 +20,7 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
+- Dockered image of PostgreSQL
+- Prisma SQL hendler
+- Auto bash script for docker control
 
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
