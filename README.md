@@ -24,3 +24,25 @@ $ npm run dev
 - Prisma SQL hendler
 - Auto bash script for docker control
 
+### TO DO's (01/02/2024)
+
+- [X] (06/10) |KACPER| POSTAWIĆ SERVER
+- [X] (06/10) |KACPER| POSTAWIĆ BAZE SQL
+- [X] (06/10) |KACPER| POSTAWIĆ PRISME
+- [X] (06/10) |KACPER| COMPONENT LOGOWANIA
+- [ ] (14/10) |KACPER| POSTAWIĆ LOGIKE
+- [ ] (14/10) |PRZEMEK| SCHEMATY TABEL
+- [ ] () || COMPONENT NAWIGACJI
+- [ ] () || COMPONENT TABEL
+- [ ] () || COMPONENT SZUKANIA
+- [ ] () || LOGIKA NAWIGACJI
+- [ ] () || LOGIKE LOGOWANIA
+- [ ] () || LOGIKA TABEL
+- [ ] () || LOGIKA SZUKANIA
+- [ ] () || LOGIKA KOMUNIKATÓW
+- [ ] () || LOGIKA SORTOWANIA
+- [ ] () || LOGIKA EDYCJI TABEL
+- [ ] () || WIDOK EDYCJI TABEL
+- [ ] () || WIDOK TABEL
+- [ ] () || WIDOK LOGOWANIA
+
