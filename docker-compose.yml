@@ -2,7 +2,7 @@ version: '3.7'
 services:
     postgres:
         image: postgres:10.5
-        container_name: postgres
+        container_name: postgres-pszemoapp
         restart: always
         environment:
           - POSTGRES_USER=postgres

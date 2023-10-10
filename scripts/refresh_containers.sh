@@ -52,7 +52,7 @@ wait_for_logs() {
 }
 
 # Wait for MongoDB and PostgreSQL logs
-wait_for_logs "postgres" "database system is ready to accept connections"
+wait_for_logs "postgres-pszemoapp" "database system is ready to accept connections"
 
 
 echo -e "${GREEN}All services are ready.${NC}"
